@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data Analysis</title>
+    <!-- Relative Path for CSS File-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Latitude</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="cloud_coverage.html">Cloud Coverage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Latitude vs Max Temperature-->
+    <div class="row justify-content-md-center">
+        <div class="col-md-4">
+            <div class="card mt-5 text-center">
+                <img src="../Resources/assets/images/Fig1.png" class="card-img-top" alt="Max Temperature">
+                <div class="card-body">
+                    <h5 class="card-title">Max Temperature</h5>
+                    <p class="card-text">This plot analyzes the relationship of surface temperatures as they vary with latitude. Due to the relationship of temperatures and their distance from the equator, temperatures tend to reach its maximum limit near 0 degrees latitude.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Visualizations</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <h6>vs. Max Temperature</h6>
+                            <a href="max_temp.html" class="btn btn-outline-light"><img src="../Resources/assets/images/Fig1.png" style="width: 100%;" alt="Max Temperature Image"></a>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h6>vs. Humidity</h6>
+                            <a href="humidity.html" class="btn btn-outline-light"><img src="../Resources/assets/images/Fig2.png" style="width: 100%;" alt="Humidity Image"></a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-6 text-center">
+                            <h6>vs. Cloud Coverage</h6>
+                            <a href="cloud_coverage.html" class="btn btn-outline-light"><img src="../Resources/assets/images/Fig3.png" style="width: 100%;" alt="Cloud Coverage Image"></a>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h6>vs. Wind Speed</h6>
+                            <a href="wind_speed.html" class="btn btn-outline-light"><img src="../Resources/assets/images/Fig4.png" style="width: 100%;" alt="Wind Speed Image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
