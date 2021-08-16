@@ -2,7 +2,7 @@
 
 ## Background
 
-In this repository I took what was learned about HTML and CSS to create a dashboard showing off an analysis that was completed in the Sweeny91/api_challenge repository.
+In this repository I utilzed the knowledge from the HTML and CSS portion of the course to create a dashboard displaying an analysis that was completed in a previous repository.
 
 ![assets/images/landingResize.png](assets/images/landingResize.png)
 
