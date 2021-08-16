@@ -4,7 +4,7 @@
 
 In this repository I took what was learned about HTML and CSS to create a dashboard showing off an analysis that was completed in the Sweeny91/api_challenge repository.
 
-![Instruction_Images/landingResize.png](assets/images/landingResize.png)
+![assets/images/landingResize.png](assets/images/landingResize.png)
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
